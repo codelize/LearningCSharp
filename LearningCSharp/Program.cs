@@ -1,3 +1,4 @@
-﻿int quantidadeProdutos = 42;
+﻿int anoNascimento = 1998;
+int anoAtual = 2025;
 
-Console.WriteLine(quantidadeProdutos);
+Console.WriteLine($"Sua idade é: {anoAtual - anoNascimento} anos ");
