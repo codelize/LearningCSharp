@@ -10,6 +10,7 @@ class NotaCalculation
 
         float media = (nota1 + nota2 + nota3) / 3;
 
-        Console.WriteLine($"A média das 3 notas é: {media} .");
+        Console.WriteLine($"A média das 3 notas é:  {media} .");
     }
 }
+ 
