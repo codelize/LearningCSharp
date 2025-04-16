@@ -9,6 +9,7 @@ class Program
         Console.WriteLine("1 - Finance Program");
         Console.WriteLine("2 - Hours Program");
         Console.WriteLine("3 - Miles Program");
+        Console.WriteLine("4 - Triangle Calculation");
 
         string escolha = Console.ReadLine();
 
@@ -27,6 +28,11 @@ class Program
         {
             // Chama o Miles Program
             MilesProgram.Executar();
+        }
+        else if (escolha == "4")
+        {
+            //Chama o Triangle Calculation
+            TriangleCalculation.Executar();
         }
         else
         {
