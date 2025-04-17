@@ -11,6 +11,8 @@ class Program
         Console.WriteLine("3 - Miles Program");
         Console.WriteLine("4 - Triangle Calculation");
         Console.WriteLine("5 - Note Calculation");
+        Console.WriteLine("6 - Veicle Toneladas");
+        Console.Write("------------------------");
 
         string escolha = Console.ReadLine();
 
@@ -39,6 +41,11 @@ class Program
         {
             //Chama o Note Calculation
             NotaCalculation.Executar();
+        }
+        else if (escolha == "6")
+        {
+            //Chama o Note Veicle Toneladas
+            VeicleTon.Executar();
         }
         else
         {
