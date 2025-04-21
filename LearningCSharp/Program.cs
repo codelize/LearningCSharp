@@ -14,6 +14,7 @@ class Program
         Console.WriteLine("6 - Veicle Toneladas");
         Console.WriteLine("7 - Life Game");
         Console.WriteLine("8 - New Reword");
+        Console.WriteLine("9 - New Measure"); 
         Console.WriteLine("------------------------");
 
         string escolha = Console.ReadLine();
@@ -39,7 +40,7 @@ class Program
             //Chama o Triangle Calculation
             TriangleCalculation.Executar();
         }
-        else if (escolha == "5") 
+        else if (escolha == "5")
         {
             //Chama o Note Calculation
             NotaCalculation.Executar();
@@ -58,6 +59,11 @@ class Program
         {
             //Chama o New Reword
             NewReword.Executar();
+        }
+        else if (escolha == "9")
+        {
+            //Chama o New Measure
+            NewMeasure.Executar();
         }
         else
         {
