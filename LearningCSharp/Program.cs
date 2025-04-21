@@ -13,6 +13,7 @@ class Program
         Console.WriteLine("5 - Note Calculation");
         Console.WriteLine("6 - Veicle Toneladas");
         Console.WriteLine("7 - Life Game");
+        Console.WriteLine("8 - New Reword");
         Console.WriteLine("------------------------");
 
         string escolha = Console.ReadLine();
@@ -52,6 +53,11 @@ class Program
         {
             //Chama o Life Game
             LifeGame.Executar();
+        }
+        else if (escolha == "8")
+        {
+            //Chama o New Reword
+            NewReword.Executar();
         }
         else
         {
