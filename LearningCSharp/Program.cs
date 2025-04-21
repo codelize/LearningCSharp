@@ -1,10 +1,4 @@
-﻿using System;
-
-class Program
-{
-    static void Main(string[] args)
-    {
-        // Menu de escolha do programa
+﻿        // Menu de escolha do programa
         Console.WriteLine("Escolha o programa a ser executado:");
         Console.WriteLine("1 - Finance Program");
         Console.WriteLine("2 - Hours Program");
@@ -69,5 +63,3 @@ class Program
         {
             Console.WriteLine("Opção inválida.");
         }
-    }
-}
