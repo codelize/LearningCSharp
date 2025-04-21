@@ -12,7 +12,8 @@ class Program
         Console.WriteLine("4 - Triangle Calculation");
         Console.WriteLine("5 - Note Calculation");
         Console.WriteLine("6 - Veicle Toneladas");
-        Console.Write("------------------------");
+        Console.WriteLine("7 - Life Game");
+        Console.WriteLine("------------------------");
 
         string escolha = Console.ReadLine();
 
@@ -46,6 +47,11 @@ class Program
         {
             //Chama o Note Veicle Toneladas
             VeicleTon.Executar();
+        }
+        else if (escolha == "7")
+        {
+            //Chama o Life Game
+            LifeGame.Executar();
         }
         else
         {
